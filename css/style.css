@@ -1,0 +1,28 @@
+body {
+    background: round;
+    background-image: url(../Img/pfinal\ 1.png);
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    flex-direction: column;
+}
+div{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+button {
+
+    padding: 10px;
+    background: transparent;
+    border-color: aquamarine;
+
+}
+
+
+button:hover {
+    border-color: red;
+}
+
