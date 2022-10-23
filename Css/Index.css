@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav {
+
+    padding: 0%;
+    display: block;
+    
+
+}
+
+header nav ul {
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin: 5%;
+    padding: 10px;
+
+}
+
+header nav .logo-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    background: #adfff4c9;
+    align-items: flex-end;
+    justify-content: space-around;
+    align-content: space-around;
+    position: relative;
+    top: -25px;
+    z-index: 1;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div .submenu {
+    display: flex;
+}
+
+header nav li a {
+    color: aliceblue;
+    margin: 0%;
+    padding: 10%;
+    
+}
+
+header div .logo-container a {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .barra {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background: #adfff4;
+    justify-content: space-evenly;
+}
+
+header nav .logo-container:hover {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #adfff4;
+    padding-bottom: 2px;
+    background-image: url("/Img/nav-bar/mano\ con\ letras\ .png")
+}
+
+header nav .logo-container:hover .logo{
+margin-top: 50px;
+}
+
+header nav .logo-container:hover .isologo{
+    padding-bottom: 20px;
+
+    }
+
+
+header div  a:hover {
+
+    top: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .logo-container:hover .isologo {
+   display: block;
+
+}
+
+header nav .isologo  {
+ display: none;
+ 
+}
+
+.imagens-bar{
+    display: inline-flex;
+    height: 50px;
+    position: relative;
+    top: -50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.imagens-bar img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.imagens-bar .imagenbar1 {
+    position: relative;
+    top: -1px;
+    width: 25px;
+}
+
+.imagens-bar .imagenbar2 {
+    width: 50px;
+    top: 4px;
+}
+
+.imagens-bar .imagenbar3 {
+    left: 125px;
+    height: max-content;
+    top: 3px;
+    width: 4%;
+    transform: rotate(90deg);
+}
+
+.imagens-bar .imagenbar4 {
+    width: 2%;
+    transform: rotate(0deg);
+    top: 21px;
+    left: -419px;
+}
+
+
+
+
+
+.imagens-bar .imagenbar5 {
+    width: 4%;
+    position: relative;
+    transform: rotate(90deg);
+    left: -142px;
+}
+
+.imagens-bar .imagenbar6 {
+    top: -3px;
+    width: 8%;
+    transform: rotate(0deg);
+}
+
+.imagens-bar .imagenbar7 {
+    width: 4%;
+    right: 100%;
+    height: max-content;
+    top: 0px;
+}
+
+
+.imagens-bar .imagenbar-cora1 {
+
+
+    object-fit: cover;
+    top: -39px;
+    opacity: 50%;
+    clip-path: inset(39px 0 0 0);}
+
+
+    .imagens-bar .imagenbar-cora2 { 
+        width: 65px;
+        opacity: 50%;
+    }
+
+.imagens-bar .imagenbar-cora3 {
+
+
+top: 6px;
+    width: 214px;
+    clip-path: inset(0 0 117px 0);
+    opacity: 50%;
+}
+
+
+.middler {
+    background: round;
+    background-image: url(../Img/pfinal\ 1.png);
+    display: flex;
+    height: 500px;
+    justify-content: space-evenly;
+    
+}
+
+.divsection {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+button {
+
+    padding: 10px;
+    background: #2db97f2e;
+    border-color: aquamarine;
+    font-size: larger;
+
+}
+
+
+button:hover {
+    border-color: red;
+    background: aqua;
+    -webkit-text-fill-color: white;
+}
+
+    
+
+ 
+ header nav .Lactivado {
+  display: none;
+  
+ }
+
+ header nav .logo-container:hover .logo {
+    display: none;
+ 
+ }
+ header nav .logo-container:hover .Lactivado {
+    display: block;
+ 
+ }
+ 
